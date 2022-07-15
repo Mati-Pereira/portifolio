@@ -16,7 +16,7 @@ const tecnologies = [
   { id: "css", name: "CSS", icon: <DiCss3 />, content: "CSS é uma linguagem de estilo usada para descrever a apresentação de um documento escrito em HTML" },
   { id: "js", name: "JavaScript", icon: <DiJsBadge />, content: "JavaScript é uma linguagem leve, interpretada e baseada em objetos com funções de primeira classe" },
   { id: "ts", name: "TypeScript", icon: <SiTypescript />, content: "TypeScript é um “superset” do Javascript, criado para adicionar recursos de tipagem estáticas à linguagem original." },
-  { id: "node", name: "Node.js", icon: <DiNodejsSmall />, content: "Node.js® é um JavaScript runtime construído sobre o motor JavaScript V8 da Chrome." },
+  { id: "node", name: "Node.js", icon: <DiNodejsSmall />, content: "Node.js é um JavaScript runtime construído sobre o motor JavaScript V8 da Chrome." },
   { id: "react", name: "React", icon: <DiReact />, content: "Uma biblioteca JavaScript para criar interfaces de usuário" }
 ]
 

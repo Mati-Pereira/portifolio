@@ -9,7 +9,7 @@ function Sidebar() {
       <img src={Perfil} alt="my-perfil" style={{
         'width': '14rem'
       }}/>
-      <p className="title">Desenvolvedor Front-End</p>
+      <p className="title">Desenvolvedor Front-End Júnior</p>
       <SocialNetwork />
       <InfoContainer />
       <a href="#" target="_blank" className="btn">Download Currículo</a>

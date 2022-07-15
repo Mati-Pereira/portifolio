@@ -12,7 +12,7 @@ function SidebarEnglish() {
       <p className="title">Junior Front-End Developer</p>
       <SocialNetworkEnglish />
       <InfoContainerEnglish />
-      <a href="#" target="_blank" className="btn">Download Resume</a>
+      <a href="https://drive.google.com/file/d/1gbIsqryY8WnSS68eVoYt7f5UfptDnNgS/view?usp=sharing" target="_blank" className="btn">Download Resume</a>
     </aside>
   );
 }

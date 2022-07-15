@@ -8,11 +8,11 @@ function Sidebar() {
     <aside id="sidebar">
       <img src={Perfil} alt="my-perfil" style={{
         'width': '14rem'
-      }}/>
+      }} />
       <p className="title">Desenvolvedor Front-End Júnior</p>
       <SocialNetwork />
       <InfoContainer />
-      <a href="#" target="_blank" className="btn">Download Currículo</a>
+      <a href="https://drive.google.com/file/d/1QRhN1tggBMWRg0vUxq30ueRHcu1wAyli/view?usp=sharing" target="_blank" className="btn">Download Currículo</a>
     </aside>
   );
 }

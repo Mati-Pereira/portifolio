@@ -17,7 +17,7 @@
 
   @media (max-width: 700px) {
     .social-btn {
-      padding: 1rem ;
+      padding: 1rem 2rem;
     }
   }
 
@@ -30,7 +30,7 @@
   }
 
   :hover {
-    background: variables.$gradient;
+    scale: (1.1);
 
     >svg {
       color: variables.$text-color;

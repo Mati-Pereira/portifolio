@@ -19,15 +19,23 @@
   }
 
   .title {
-    color: variables.$text-color-secondary;
+    color: variables.$text-color;
     background-color: variables.$bg-color-secondary;
     border-radius: variables.$card-border-radius;
     margin-top: 15rem;
     padding: .8rem 1.2rem;
+    font-size: 2rem;
+    width: 90%;
+    text-align: center;
+    font-weight: 700;
   }
 
   .btn {
-    @include mixings.btn
+    @include mixings.btn;
+
+    &:hover {
+      scale: (1.1);
+    }
   }
 }
 

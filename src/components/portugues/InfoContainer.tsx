@@ -1,4 +1,4 @@
-import '../styles/components/infocontainer.scss'
+import '../../styles/components/infocontainer.scss'
 import { AiFillPhone, AiOutlineMail, AiFillEnvironment } from 'react-icons/ai'
 
 function InfoContainer() {

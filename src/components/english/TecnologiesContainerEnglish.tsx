@@ -9,7 +9,7 @@ import {
   SiTypescript
 } from 'react-icons/si'
 
-import '../styles/components/tecnologies.scss'
+import '../../styles/components/tecnologies.scss'
 
 const tecnologies = [
   { id: "html", name: "HTML5", icon: <DiHtml5 />, content: "HTML (HyperText Markup Language) is the most basic building block of the web." },
@@ -23,7 +23,7 @@ const tecnologies = [
 function TecnologiesContainerEnglish() {
   return (
     <section id="tecnologies-container">
-      <h2>Tecnologias</h2>
+      <h2>Technologies</h2>
       <div className="tecnologies-grid">
         {tecnologies.map((tecnology, index) => (
           <div id={tecnology.id} className="tecnology-card" key={index}>

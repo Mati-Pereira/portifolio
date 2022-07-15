@@ -1,11 +1,15 @@
-import MainContent from './components/MainContent';
-import Sidebar from './components/Sidebar';
+import { Link } from 'react-router-dom';
+import MainContent from './components/portugues/MainContent';
+import Sidebar from './components/portugues/Sidebar';
 import './styles/components/app.scss'
 
 function App() {
   return (
     <div id="portifolio">
-      <h1>Matheus Rodrigues</h1>
+      <div className="link">
+        <h1>Matheus Rodrigues</h1>
+        <Link to="/english" className="btn">English</Link>
+      </div>
       <Sidebar />
       <MainContent />
     </div>

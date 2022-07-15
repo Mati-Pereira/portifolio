@@ -1,4 +1,4 @@
-import '../styles/components/maincontent.scss'
+import '../../styles/components/maincontent.scss'
 import AboutContainer from './AboutContainer';
 import TecnologiesContainer from './TecnologiesContainer';
 

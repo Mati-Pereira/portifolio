@@ -1,6 +1,30 @@
 @use '../variables.scss';
+@use '../mixings.scss';
 
 #portifolio {
+  .link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    @media(max-width: 700px) {
+      flex-direction: column;
+    }
+
+    .btn {
+      @include mixings.btn;
+
+      &:hover {
+        scale: (1.1);
+      }
+
+      @media(max-width: 700px) {
+        margin-bottom: 3rem;
+
+      }
+    }
+  }
 
   display: flex;
   flex-flow: row wrap;

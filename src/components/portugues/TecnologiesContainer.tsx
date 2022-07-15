@@ -9,7 +9,7 @@ import {
   SiTypescript
 } from 'react-icons/si'
 
-import '../styles/components/tecnologies.scss'
+import '../../styles/components/tecnologies.scss'
 
 const tecnologies = [
   { id: "html", name: "HTML5", icon: <DiHtml5 />, content: "HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web." },

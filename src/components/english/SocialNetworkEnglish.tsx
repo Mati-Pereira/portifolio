@@ -1,6 +1,6 @@
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 
-import '../styles/components/socialnetworks.scss'
+import '../../styles/components/socialnetworks.scss'
 
 const socialNetworks = [
   { name: "linkedin", icon: <FaLinkedinIn style={{'fontSize': '4rem'}}/>, link: "https://github.com/Mati-Pereira" },

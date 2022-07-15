@@ -1,5 +1,5 @@
-import Perfil from '../img/perfil.jpg'
-import '../styles/components/sidebar.scss'
+import Perfil from '../../img/perfil.jpg'
+import '../../styles/components/sidebar.scss'
 import InfoContainer from './InfoContainer';
 import SocialNetwork from './SocialNetwork';
 

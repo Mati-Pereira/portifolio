@@ -1,1 +1,58 @@
 @use '../variables.scss';
+@use '../mixings.scss';
+
+#information {
+  @include mixings.center;
+  flex-direction: column;
+  background-color: variables.$bg-color-secondary;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  width: 80%;
+  border-radius: variables.$card-border-radius;
+  gap: 1rem;
+
+  .info-card {
+    width: 100%;
+    @include mixings.center;
+    justify-content: start;
+    padding-bottom: .8rem;
+    margin-bottom: .8rem;
+    border-bottom: 5px dotted #444;
+    gap: 1rem;
+
+    svg {
+      background-color: variables.$bg-color;
+      padding: .4rem;
+      width: 2rem;
+      height: 2rem;
+    }
+    #email-icon{
+      color: #6ab5b9;
+    }
+    #phone-icon{
+      color: #e93b81;
+    }
+    #pin-icon{
+      color: #c17ceb;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: .5rem;
+
+      h3 {
+        color: variables.$text-color-secondary;
+        font-size: .8rem;
+        margin-bottom: .5rem;
+      }
+
+      p {
+        color: variables.$text-color;
+        font-weight: bold;
+      }
+
+
+    }
+  }
+}

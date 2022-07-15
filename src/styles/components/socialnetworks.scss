@@ -7,12 +7,18 @@
   margin: 1rem 0;
 
   .social-btn {
-    padding: 1rem 2rem;
+    padding: 1rem 3.4rem;
     background-color: variables.$bg-color-secondary;
     border-radius: variables.$card-border-radius;
     color: #333;
     font-size: 1.3rem;
     @include mixings.center
+  }
+
+  @media (max-width: 700px) {
+    .social-btn {
+      padding: 1rem ;
+    }
   }
 
   #linkedin {

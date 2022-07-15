@@ -27,6 +27,16 @@
       }
     }
 
+    @media (max-width: 700px) {
+      .tecnology-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+      }
+    }
+
     #html {
       svg {
         color: #e44d26;

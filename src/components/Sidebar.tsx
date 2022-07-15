@@ -6,7 +6,9 @@ import SocialNetwork from './SocialNetwork';
 function Sidebar() {
   return (
     <aside id="sidebar">
-      <img src={Perfil} alt="my-perfil" />
+      <img src={Perfil} alt="my-perfil" style={{
+        'width': '14rem'
+      }}/>
       <p className="title">Desenvolvedor Front-End</p>
       <SocialNetwork />
       <InfoContainer />

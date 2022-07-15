@@ -12,7 +12,7 @@ function Sidebar() {
       <p className="title">Desenvolvedor Front-End</p>
       <SocialNetwork />
       <InfoContainer />
-      <a href="" className="btn">Download Currículo</a>
+      <a href="#" target="_blank" className="btn">Download Currículo</a>
     </aside>
   );
 }

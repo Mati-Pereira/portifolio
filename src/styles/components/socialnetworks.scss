@@ -3,11 +3,11 @@
 
 #socialNetworks {
   @include mixings.center;
-  gap: 1rem;
+  gap: 1.5rem;
   margin: 1rem 0;
 
   .social-btn {
-    padding: 1rem;
+    padding: 1rem 2rem;
     background-color: variables.$bg-color-secondary;
     border-radius: variables.$card-border-radius;
     color: #333;

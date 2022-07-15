@@ -27,15 +27,19 @@
       width: 2rem;
       height: 2rem;
     }
-    #email-icon{
+
+    #email-icon {
       color: #6ab5b9;
     }
-    #phone-icon{
+
+    #phone-icon {
       color: #e93b81;
     }
-    #pin-icon{
+
+    #pin-icon {
       color: #c17ceb;
     }
+
     div {
       display: flex;
       flex-direction: column;
@@ -52,7 +56,11 @@
         font-weight: bold;
       }
 
-
+      @media (max-width: 700px) {
+        p {
+          font-size: .7rem;
+        }
+      }
     }
   }
 }

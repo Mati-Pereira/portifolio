@@ -3,8 +3,8 @@ import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import '../../styles/components/socialnetworks.scss'
 
 const socialNetworks = [
-  { name: "linkedin", icon: <FaLinkedinIn style={{'fontSize': '4rem'}}/>, link: "https://github.com/Mati-Pereira" },
-  { name: "github", icon: <FaGithub style={{ 'fontSize': '4rem' }} />, link: "https://www.linkedin.com/in/matheus-rodrigues-pereira/" },
+  { name: "linkedin", icon: <FaLinkedinIn style={{'fontSize': '4rem'}}/>,link: "https://www.linkedin.com/in/matheus-rodrigues-pereira/"  },
+  { name: "github", icon: <FaGithub style={{ 'fontSize': '4rem' }} />,  link: "https://github.com/Mati-Pereira"},
 
 ]
 
